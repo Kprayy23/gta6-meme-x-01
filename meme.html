@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GTA 6 meme — the ghost waited 13 years</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #12081f; }
+  .meme {
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: "Arial Black", "Archivo Black", "DejaVu Sans", sans-serif;
+    background: linear-gradient(180deg,
+      #2b0a4a 0%, #571a6e 30%, #a42a7c 52%, #e84e7e 66%,
+      #ff8a3d 72%, #1a0b2e 72.2%, #12081f 100%);
+  }
+  .sun { position: absolute; left: 300px; top: 200px; width: 480px; height: 480px; }
+  .skyline { position: absolute; left: 0; top: 648px; width: 1080px; height: 132px; }
+  .palms-left { position: absolute; left: -30px; top: 300px; width: 340px; height: 480px; }
+  .palms-right { position: absolute; right: -30px; top: 380px; width: 320px; height: 420px; transform: scaleX(-1); }
+  .ghost {
+    position: absolute;
+    left: 370px;
+    top: 380px;
+    width: 340px;
+    height: 340px;
+    filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.45));
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    width: 1080px;
+    text-align: center;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow:
+      5px 5px 0 #000000,
+      -4px -4px 0 #000000,
+      4px -4px 0 #000000,
+      -4px 4px 0 #000000,
+      0 6px 0 #000000;
+    letter-spacing: 1px;
+  }
+  .top1 { top: 22px; font-size: 148px; line-height: 1.02; }
+  .top2 { top: 176px; font-size: 148px; line-height: 1.02; }
+  .bottom { top: 792px; font-size: 118px; line-height: 1.02; }
+  .bottom .gta { color: #ffd23d; }
+  .lockup {
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+    width: 1080px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 0 #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000;
+  }
+  .lockup .star { color: #ff2d9a; }
+  .lockup .dot { color: #ff2d9a; }
+  .reflection { position: absolute; left: 0; width: 1080px; height: 6px; background: rgba(255, 122, 61, 0.35); }
+</style>
+</head>
+<body>
+<div class="meme" id="meme">
+  <!-- synthwave sun, sliced -->
+  <svg class="sun" viewBox="0 0 440 440" aria-hidden="true">
+    <defs>
+      <linearGradient id="sungrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffe95e"/>
+        <stop offset="0.45" stop-color="#ff9a3d"/>
+        <stop offset="1" stop-color="#ff2d78"/>
+      </linearGradient>
+      <mask id="sunmask">
+        <circle cx="220" cy="220" r="210" fill="#ffffff"/>
+        <rect x="0" y="252" width="440" height="10" fill="#000000"/>
+        <rect x="0" y="282" width="440" height="14" fill="#000000"/>
+        <rect x="0" y="318" width="440" height="18" fill="#000000"/>
+        <rect x="0" y="360" width="440" height="24" fill="#000000"/>
+        <rect x="0" y="408" width="440" height="32" fill="#000000"/>
+      </mask>
+    </defs>
+    <circle cx="220" cy="220" r="210" fill="url(#sungrad)" mask="url(#sunmask)"/>
+  </svg>
+
+  <!-- Vice City skyline on the horizon -->
+  <svg class="skyline" viewBox="0 0 1080 132" preserveAspectRatio="none" aria-hidden="true">
+    <g fill="#150829">
+      <rect x="0" y="60" width="90" height="72"/>
+      <rect x="100" y="34" width="60" height="98"/>
+      <rect x="170" y="70" width="110" height="62"/>
+      <rect x="290" y="18" width="54" height="114"/>
+      <rect x="354" y="52" width="96" height="80"/>
+      <rect x="700" y="48" width="90" height="84"/>
+      <rect x="800" y="22" width="58" height="110"/>
+      <rect x="868" y="62" width="100" height="70"/>
+      <rect x="978" y="40" width="102" height="92"/>
+    </g>
+    <g fill="#ffd23d">
+      <rect x="112" y="48" width="8" height="8"/><rect x="130" y="70" width="8" height="8"/>
+      <rect x="306" y="34" width="8" height="8"/><rect x="322" y="60" width="8" height="8"/>
+      <rect x="812" y="38" width="8" height="8"/><rect x="830" y="64" width="8" height="8"/>
+      <rect x="992" y="56" width="8" height="8"/><rect x="1010" y="78" width="8" height="8"/>
+    </g>
+    <g fill="#ff2d9a">
+      <rect x="200" y="84" width="8" height="8"/><rect x="380" y="66" width="8" height="8"/>
+      <rect x="720" y="62" width="8" height="8"/><rect x="890" y="76" width="8" height="8"/>
+    </g>
+  </svg>
+
+  <!-- palm silhouettes -->
+  <svg class="palms-left" viewBox="0 0 340 480" aria-hidden="true">
+    <g fill="#160a2b">
+      <path d="M138 480 C 132 380 112 300 52 236 L 78 222 C 132 286 154 368 166 480 Z"/>
+      <path d="M52 236 C 6 192 -22 178 -6 152 C 34 162 66 186 76 226 Z"/>
+      <path d="M56 234 C 32 180 44 132 76 116 C 84 156 78 198 72 228 Z"/>
+      <path d="M60 232 C 76 168 122 132 158 130 C 138 168 110 200 70 230 Z"/>
+      <path d="M58 234 C 96 188 146 174 178 186 C 146 208 106 222 68 236 Z"/>
+      <path d="M54 238 C 28 214 -6 210 -24 226 C 4 244 36 248 60 242 Z"/>
+      <path d="M56 236 C 70 200 96 178 124 172 C 108 196 84 216 64 240 Z"/>
+    </g>
+  </svg>
+  <svg class="palms-right" viewBox="0 0 320 420" aria-hidden="true">
+    <g fill="#160a2b">
+      <path d="M140 420 C 134 330 116 260 62 202 L 86 190 C 134 248 152 320 162 420 Z"/>
+      <path d="M62 202 C 22 164 -6 152 8 128 C 44 138 70 162 78 194 Z"/>
+      <path d="M66 200 C 44 152 56 110 84 96 C 92 132 84 168 78 196 Z"/>
+      <path d="M68 198 C 84 142 126 112 158 110 C 140 144 114 172 76 198 Z"/>
+      <path d="M64 200 C 98 158 144 146 172 158 C 144 176 108 190 72 202 Z"/>
+      <path d="M62 202 C 74 168 98 148 124 142 C 110 164 88 184 66 204 Z"/>
+    </g>
+  </svg>
+
+  <!-- the make.fun ghost, centre stage -->
+  <img class="ghost" src="assets/mark-1024.png" alt="make.fun ghost">
+
+  <div class="caption top1">WAITED</div>
+  <div class="caption top2">13 YEARS</div>
+  <div class="caption bottom">FOR <span class="gta">GTA&nbsp;6</span></div>
+  <div class="lockup"><span class="star">&#9733;</span> make<span class="dot">.</span>fun</div>
+</div>
+</body>
+</html>
